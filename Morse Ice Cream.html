@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Morse Icecream Shop</title>
+	<meta charset="utf-8">
+	<meta name="description" content="width=device-width, initial-scale=1">
+	
+	<!-- Download Bootstrap Content delivery network -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+	
+<body data-spy="scroll" data-target="#my-navbar">
+	<!--Create Navigation bar-->
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+		<div class ="container">
+			<div class="navbar-header">
+			
+				<!-- Create a button(sandwich button) in the top right corner -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			
+				<!-- Create app name at navigation bar -->
+				<a href="Morse Ice Cream.html" class="navbar-brand">Morse Ice Cream Shop</a>
+			</div>
+			
+			
+			<!-- Collapse the navigation bar and replace it by a button -->
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+			
+				<!-- Create a list for navigation bar -->
+				<ul class="nav navbar-nav">
+					<li><a href="#gallery">Gallery</a></li>
+					<li><a href="#features">Latest Features</a></li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#product">Our Product</a>
+						<ul class="dropdown-menu">
+							<li><a href="#new_arrivals">New Arrivals</a></li>
+							<li><a href="#all_flavors">All Flavors</a></li>
+						</ul>
+					</li>	
+					<li><a href="#contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<div class="jumbotron">
+		<div class="container text-center">
+			<h1>Morse Ice Cream Shop</h1>
+				   
+			<div class="btn-group">
+				<a href="https://goo.gl/maps/Y5Prk8ddhqm" class="btn btn-lg btn-danger">Visit Store</a>
+				<a href="#join" class="btn btn-lg btn-danger">Join Our Team</a>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Create greeting content-->
+	<div class="container">
+		<section>
+			<h4>Welcome to Morse's Ice Cream Shop! We are a small family-owned ice cream shop with dedication to serving a great ice cream for our customers. Since 2000, our business simply began from our passion of making home-made ice cream. Then, we decided to contribute our delicious ice cream to the neighborhood.
+				Today, our flavorful home-made ice cream has satisfied our customers with good taste and great quality. Our promise is to maintain a highest standard as well as to continually add new additions to our delicious ice cream collection.
+				Stop by at our store or order online with special limited time offer.</h4>	
+		</section>
+	</div>
+	
+	<!--Create gallery-->
+	<div class="container">
+		<section>
+			<div class="page-header" id="gallery">
+				<h2>Gallery <small>Check Out the Awesome Gallery</small></h2>
+			</div>
+			<!-- Carousel to add images-->
+			<div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="1"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="2"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="3"></li>
+				</ol>
+				
+				<!--Add picture files-->
+				<div class="carousel-inner">
+					<div class="item active">
+						<img class="img-responsive" src="madeline-tallman-44555.jpg" alt="Text of the image">
+					</div>
+					<div class="item">
+						<img class="img-responsive" src="pablo-merchan-montes-218858.jpg" alt="Text of the image">			
+					</div>
+					<div class="item">
+						<img class="img-responsive" src="neven-krcmarek-175838.jpg" alt="Text of the image">			
+					</div>
+					<div class="item">
+						<img class="img-responsive" src="brooke-cagle-195776.jpg" alt="Text of the image">			
+					</div>
+				</div>
+				
+				<!-- Add arrow left and right on the picture gallery -->
+				<a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+		</section>
+	</div>
+	
+	<!--Add features-->
+	<div class="container">
+		<section>
+			<div class="page-header" id="features">
+				<h2>Features <small>Some of the latest features from our store.</small></h2>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-6">
+					<h3>Raspberry Ice Cream</h3>
+					<p>Our delicious ice cream with a special blend of fresh raspberry and cherry</p>
+				</div>
+				<div class="col-sm-6">
+					<img src="dennis-klein-130330.jpg" class="img-responsive" alt="image">
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-sm-8">
+					<h3>Yogert Ice Cream</h3>
+					<p>Creamy yogert rich flavor with strawberry topping</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="karly-gomez-216611.jpg" class="img-responsive" alt="image">
+				</div>
+			</div>
+			<hr>
+		</section>
+	</div>
+	
+	<!--Add new arrival product and price-->
+	<div class="container">
+		<section>
+			<div class="page-header" id="new_arrivals">
+				<h2>New Arrivals</h2>
+			</div>
+			<div class="row">
+				<div class="col-sm-8">
+					<h3>Black Raspberry Ice Cream</h3>
+					<p>Refreshing fruity flavored ice cream from fresh black raspberry</p><br>
+					<p><b>Cones:</b> single scoop=$2.50 double scoop=$3.50</p>
+					<p><b>Cups:</b> =$4.50</b></p>
+				</div>
+				<div class="col-sm-4">
+					<img src="IC2.jpg" class="img-responsive" alt="image">
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-sm-8">
+					<h3>Raspberry Ice Cream</h3>
+					<p>Our delicious ice cream with a special blend of fresh raspberry and cherry</p><br>
+					<p><b>Cones:</b> single scoop=$2.50 double scoop=$3.50</p>
+					<p><b>Cups:</b> =$4.50</b></p>
+				</div>
+				<div class="col-sm-4">
+					<img src="dennis-klein-130330.jpg" class="img-responsive" alt="image">
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-sm-8">
+					<h3>Yogert Ice Cream</h3>
+					<p>Creamy yogert rich flavor with strawberry topping</p>
+					<p><b>Cup:</b> =$2.50</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="karly-gomez-216611.jpg" class="img-responsive" alt="image">
+				</div>
+			</div>
+			<hr>
+		</section>
+	</div>
+	<!--Add all flavor product and price-->
+	<div class="container">
+		<section>
+			<div class="page-header" id="all_flavors">
+				<h2>All Flavors</h2>
+			</div>
+			<div class="row">
+				<div class="col-sm-8">
+					<img src="04icecream-span-articleLarge.jpg" class="img-responsive" alt="image">
+					<p><small>Photographs by Dwight Eschliman for The New York Times. Food Stylist: Caitlin Freeman. </small></p>
+				</div>
+				<div class="col-sm-4">
+					<h3>All Flavors Ice Cream</h3>
+					<p><b>Cones:</b> single scoop=$1.50 double scoop=$2.50</p>
+				</div>	
+			</div>
+		</section>
+	</div>
+	<!--Contact Us-->
+	<div class="container">
+		<section>
+			<div class="page-header" id="contact">
+				<h2>Contact Us</h2>
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-4">
+					<p>Send us the message, or contact us from the address below</p>
+					<address>
+					 <strong>Morse Ice cream shop Ltd.</strong></br>
+					 400 W Central Drive</br>
+					 Phoenix, AZ</br>
+					 85000</br>
+					 P:602-333-3333 
+					</address>
+				</div>
+				
+				<!-- Call for action -->
+				<div class="col-lg-8">
+					<form action="" class="form-horizontal">
+						<div class="form-group">
+							<label for="user-name" class="col-lg-2 control-label">Name</label>
+							<div class="col-lg-10">
+								<input type="text" class="form-control" id="user-name" placeholder="Enter your name">
+							</div> 
+						</div>
+						
+						<div class="form-group">
+							<label for="user-email" class="col-lg-2 control-label">Email</label>
+							<div class="col-lg-10">
+								<input type="text" class="form-control" id="user-email" placeholder="Enter your Email address">
+							</div> 
+						</div>
+						
+						<div class="form-group">
+							<label for="user-url" class="col-lg-2 control-label">Your Website</label>
+							<div class="col-lg-10">
+								<input type="text" class="form-control" id="user-url" placeholder="Enter your website (if you have any">
+							</div> 
+						</div>
+						
+						<div class="form-group">
+							<label for="user-message" class="col-lg-2 control-label">Any Message</label>
+							<div class="col-lg-10">
+								<textarea name-"user-message" id="user-message" class="form-control"
+								 cols="20"  rows="10" placeholder="Enter your message"></textarea>
+							</div> 
+						</div>
+						
+						<div class="form-group">
+							<div class="col-lg-10 col-lg-offset-2">
+								<button type="submit" class="btn btn-primary">Submit</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+	</div>
+	
+	<!--Join our team -->
+	<div class="container">
+		<section>
+			<div class="page-header" id="join">
+				<h2>We are hiring</h2>
+				<p>We have an opening for a counter person position with a competitive hourly base pay of $10.00.  The work schedules will be Monday-Friday 09.00 AM-08.00 PM.  We need someone who has experience working in fast-paced work environment with excellent customer service skills.  
+				   If you are interested, please submit your resume via email link below.</p>
+				<a class="email_us" href="mailto:chonlada.morse@gmail.com?subject=Apply%20for%20Counter%20Person%20Position"><i>Email Us</i></a>
+			</div>
+		</section>
+	</div>
+	
+	<!--footer-->
+	<footer>
+		<hr>
+		<div class="container text-center">
+			<h3>Become a member for special offer</h3>
+			<p>Enter your name and email</p>
+			<!--Create become a member submit form-->
+			<form action="" class="form-inline">
+				<div class="form-group">
+					<label for="subscription">Name</label>
+					<input type="text" class="form-control" id="subscription" placeholder="Your name">			
+				</div>
+				<div class="form-group">
+					<label for="email">Email address</label>
+					<input type="text" class="form-control" id="email" placeholder="Enter your Email">			
+				</div>
+				<button type="submit" class="btn btn-danger">Become a member</button>			
+			</form>	
+			<hr>
+			<ul class="list-inline">
+				<li><a href="http://www.twitter.com/">Twitter</a></li>
+				<li><a href="https://www.facebook.com/">Facebook</a></li>
+				<li><a href="http://www.youTube.com/">YouTube</a></li>
+			</ul>
+			<p>&copy; Copyright @ 2017</p>
+		</div>
+	</footer>
+</body>
+</html>
